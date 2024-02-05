@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html::-webkit-scrollbar{
+  display: none;
+}
+
 .heading-font{
   font-family: "Young Serif", serif;
 }
