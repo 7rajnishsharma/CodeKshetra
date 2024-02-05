@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       <p className="credit">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, in?
+        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, in? */}
       </p>
     </footer>
   );
