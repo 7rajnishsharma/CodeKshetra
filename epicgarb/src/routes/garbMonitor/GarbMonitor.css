@@ -1,0 +1,20 @@
+.greeting{
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.videoframe{
+    margin-top: 2rem;
+    height: 400px;
+    max-width: 100%;
+    border: 2px solid black;
+    background: #343541;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 524px) {
+    .greeting{
+        font-size: 1.4rem;
+    }
+  
+  }

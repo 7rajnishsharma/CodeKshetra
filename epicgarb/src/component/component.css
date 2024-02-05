@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 /* css for all the components are written here */
 
@@ -25,9 +25,8 @@ header {
   color: var(--textColor);
 }
 
-.logo{
+.logo {
   box-sizing: border-box;
-
 }
 
 .logo img {
@@ -117,8 +116,7 @@ nav a {
   padding: 3rem 0 3rem 0;
 }
 
-.hero-content{
-  
+.hero-content {
   flex: 1 1 55%; /* Adjust the flex values based on your preference */
 }
 .hero-image {
@@ -175,29 +173,28 @@ nav a {
   /* .hero {
     flex-direction: column-reverse;
   } */
-  
+
   .hero {
     padding: 1.5rem 0 1.5rem 0;
   }
-  
+
   .hero-image img {
     max-width: 300px;
     max-height: 300px;
   }
 
   .hero-content {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .hero-content-heading {
     font-size: 1.8rem;
   }
-  
+
   .hero-content-subheading {
     font-size: 1.1rem;
   }
 }
-
 
 /* =================================== Hero About =================================== */
 
@@ -214,8 +211,9 @@ nav a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background: 	#f4faff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background: #f4faff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .hero-about-contaniner-reverse {
@@ -243,18 +241,17 @@ nav a {
   padding: 1rem;
 }
 
-.hero-about-container-content h1{
+.hero-about-container-content h1 {
   font-size: 2.3rem;
   font-weight: 700;
   color: #434344;
 }
 
-.hero-about-container-content p{
+.hero-about-container-content p {
   font-size: 1.4rem;
   font-weight: 400;
   color: #434344;
 }
-
 
 /* Desktop layout */
 @media only screen and (min-width: 768px) {
@@ -273,11 +270,11 @@ nav a {
 }
 
 @media only screen and (max-width: 524px) {
-  .hero-about-container-content h1{
+  .hero-about-container-content h1 {
     font-size: 2rem;
   }
-  
-  .hero-about-container-content p{
+
+  .hero-about-container-content p {
     font-size: 1.2rem;
   }
 }
@@ -285,33 +282,35 @@ nav a {
 /* =================================== Navigator =================================== */
 
 .navigator {
-  padding: 2rem;
+  padding: 3rem;
   color: #fff;
   background: #202124;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 5px 20px;
+  text-align: center;
 }
 
-.navigator h1 {
-  font-style: 2rem;
-  text-align: center;
+.navigator a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+  font-size: 1.7rem;
+  transition: all 0.5s ease;
 }
-.navigator p {
-  font-size: 1.25rem;
-  text-align: center;
+
+.navigator a:hover {
+  color: #fefefe;
 }
 
 @media only screen and (max-width: 524px) {
   .navigator {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
-  .navigator h1 {
-    font-style: 1.5rem;
-  }
-  .navigator p {
-    font-size: 1rem;
+  .navigator a {
+    font-size: 1.2rem;
   }
 }
 
@@ -362,16 +361,16 @@ nav a {
     height: 150px;
   }
 
-  .card-title{
+  .card-title {
     font-size: 1rem;
   }
 
-  .card-text{
-    font-size: .8rem;
+  .card-text {
+    font-size: 0.8rem;
   }
 
   .features-container {
-    gap: 10px; 
+    gap: 10px;
   }
 }
 
@@ -387,7 +386,6 @@ nav a {
   border-radius: 25px;
   padding: 45px 90px 45px 60px;
   margin: auto;
-
 }
 .accordion .image-box {
   height: 360px;
@@ -464,8 +462,6 @@ nav a {
   display: block;
 }
 
-
-
 @media (max-width: 991px) {
   .accordion {
     max-width: 100%;
@@ -506,7 +502,6 @@ nav a {
   }
 }
 
-
 /* ============================== footer ============================== */
 .footer-distributed {
   background: #303030;
@@ -535,7 +530,7 @@ nav a {
 
 .footer-distributed h3 {
   color: #ffffff;
-  font: normal 36px 'Open Sans', cursive;
+  font: normal 36px "Open Sans", cursive;
   margin: 0;
 }
 
@@ -606,7 +601,6 @@ nav a {
 .footer-distributed .footer-center p a {
   color: #ccc;
   text-decoration: none;
-  ;
 }
 
 .footer-distributed .footer-links a:before {
@@ -666,21 +660,19 @@ nav a {
   margin-bottom: 5px;
 }
 
-
-.credit{
+.credit {
   margin-top: 2rem;
   font-size: 2rem;
   color: #fff;
   text-align: center;
 }
 
-.credit a{
+.credit a {
   text-decoration: none;
   color: #42bed4;
 }
 
 @media only screen and (max-width: 767px) {
- 
   .footer-distributed {
     font: bold 14px sans-serif;
   }
@@ -697,5 +689,4 @@ nav a {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-
 }
