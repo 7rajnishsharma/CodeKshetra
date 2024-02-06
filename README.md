@@ -4,6 +4,8 @@
 
 EpicGarb is an innovative waste classifier designed to analyze live video from a webcam and categorize waste into four types: recyclable, hazardous, food, and residual. The project seamlessly integrates frontend, backend, database, and AI technologies to offer an efficient and user-friendly waste management solution.
 
+Visit the live project at: [EpicGarb](https://epicgarb.netlify.app/)
+
 ## Technologies Used
 
 - **Frontend:**
