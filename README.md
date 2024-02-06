@@ -76,3 +76,4 @@ EpicGarb represents a significant step towards sustainable waste management. The
 3. Set up Firebase authentication and database.
 4. Run the application using `npm start` for both frontend and backend.
 
+![Landing page](https://github.com/7rajnishsharma/CodeKshetra/assets/111423953/7ab1bed3-4a66-4a5b-a17e-aee798c865dd)
