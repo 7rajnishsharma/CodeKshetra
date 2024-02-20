@@ -27,7 +27,7 @@ function Login() {
     signInWithEmailAndPassword(auth, values.email, values.pass)
       .then(async (res) => {
         setSubmitButtonDisabled(false);
-        
+
         navigate("/");
       })
       .catch((err) => {
@@ -57,11 +57,11 @@ function Login() {
 
         <div className={styles.footer}>
           <b className={styles.error}>{errorMsg}</b>
-          <button disabled={submitButtonDisabled} onClick={handleSubmission}>
+          <button disabled={submitButtonDisabled} onClick={handleSubmission} style={{ width:'100%'}}>
             Login
           </button>
-          <p>
-            Already have an account?{" "}
+          <p style={{ textAlign: 'left', marginTop: '10px' }}>
+            Don't have an account?{" "}
             <span>
               <Link to="/signup">Sign up</Link>
             </span>

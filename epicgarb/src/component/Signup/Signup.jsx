@@ -69,10 +69,10 @@ function Signup() {
 
         <div className={styles.footer}>
           <b className={styles.error}>{errorMsg}</b>
-          <button onClick={handleSubmission} disabled={submitButtonDisabled}>
+          <button onClick={handleSubmission} disabled={submitButtonDisabled} style={{ width:'100%'}}>
             Signup
           </button>
-          <p>
+          <p style={{ textAlign: 'left', marginTop: '10px' }}>
             Already have an account?{" "}
             <span>
               <Link to="/login">Login</Link>
